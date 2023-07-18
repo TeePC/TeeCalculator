@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 display: flex;
   justify-content: center;
@@ -20,13 +25,19 @@ display: flex;
 
 .display {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   align-items: flex-end;
+  justify-content: space-around;
+  
   border-top-left-radius: 19%;
   border-top-right-radius: 19%;
   background-color: aliceblue;
   border: solid 15px #353935;
   height: 20%;
+}
+
+.previous, .current {
+  margin-right:  20px;
 }
 
 .buttons {
