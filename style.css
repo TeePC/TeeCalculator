@@ -41,6 +41,12 @@ display: flex;
   padding-bottom: 12px;
 }
 
+.operators {
+background-color: #5E2CDB !important;
+border: none !important;
+
+}
+
 .gridBox {
   display: flex;
   justify-content: center;
@@ -80,16 +86,16 @@ display: flex;
 
 .gridBox:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #726E6D;
+    
   }
 
 .gridBox:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #726E6D;
+    
   }
 
 .gridBox:hover {
-    color: #ffee10;
+    
     box-shadow: 0 0 5px #726E6D;
     text-shadow: 0 0 5px #726E6D;
   }
