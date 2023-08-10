@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tee-Calculator</title>
     <link rel="stylesheet" href="style.css">
@@ -66,28 +67,29 @@
       <div class="calculator"> 
               <div class="display">
                 <h3 class="previous">1 + 2 = 123</h3>
-                  <h1 class="current">0</h1>
+                <input type="field" id="userInput" placeholder="">
+                
               </div>
       
               <div class="buttons">
-                  <div class="gridBox"><p>AC</p> </div>
-                  <div class="gridBox"><p>C</p> </div>
-                  <div class="gridBox"><p>%</p> </div>
-                  <div class="gridBox operators"><p>&divide</p> </div>
-                  <div class="gridBox"><p>7</p> </div>
-                  <div class="gridBox"><p>8</p> </div>
-                  <div class="gridBox"><p>9</p> </div>
-                  <div class="gridBox operators"><p>*</p> </div>
-                  <div class="gridBox"><p>4</p> </div>
-                  <div class="gridBox"><p>5</p> </div>
-                  <div class="gridBox"><p>6</p> </div>
-                  <div class="gridBox operators"><p>-</p> </div>
-                  <div class="gridBox"><p>1</p> </div>
-                  <div class="gridBox"><p>2</p> </div>
-                  <div class="gridBox"><p>3</p> </div>
-                  <div class="gridBox operators"><p>+</p> </div>
-                  <div class="gridBox double"><p class="special-0">0</p> </div>
-                  <div class="gridBox"><p>.</p> </div>
+                  <div class="gridBox"><button>  <p>AC</p> </button> </div>
+                  <div class="gridBox"> <button> <p>C</p> </button> </div>
+                  <div class="gridBox"><button> <p>%</p> </button></div>
+                  <div class="gridBox operators"><button class=" operators"> <p>&divide</p> </button> </div>
+                  <div class="gridBox"><button value= 7 class="numbers" id="seven"> 7 </button> </div>
+                  <div class="gridBox"><button value= 8 class="numbers"> 8 </button> </div>
+                  <div class="gridBox"> <button value= 9 class="numbers">  9 </button> </div>
+                  <div class="gridBox operators"> <button class="operators" > <p>*</p></button> </div>
+                  <div class="gridBox"> <button value= 4 class="numbers"> 4 </button> </div>
+                  <div class="gridBox"><button value= 5 class="numbers"> 5 </button> </div>
+                  <div class="gridBox"> <button value= 6 class="numbers"> 6  </button></div>
+                  <div class="gridBox operators"><button class=" operators"> <p>-</p> </button> </div>
+                  <div class="gridBox"> <button value= 1 class="numbers"> 1 </button> </div>
+                  <div class="gridBox"> <button value= 2 class="numbers"> 2 </button> </div>
+                  <div class="gridBox"> <button value= 3 class="numbers"> 3 </button> </div>
+                  <div class="gridBox operators"> <button class="operators"> <p>+</p> </button> </div>
+                  <div class="gridBox double"> <button value= 0 class="numbers special-0">  0 </button> </div>
+                  <div class="gridBox"> <button> <p>.</p>  </button></div>
                   <div class="gridBox operators"><p>=</p> </div>
       
       

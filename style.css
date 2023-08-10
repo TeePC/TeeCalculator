@@ -40,16 +40,33 @@ display: flex;
   margin-right:  20px;
 }
 
+button {
+  background-color: #36454f;
+  
+  
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-weight: 800;
+
+}
+
 .buttons {
   background-color: #353935;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 10px;
   height: 100%;
   max-height: 400px;
   flex-direction: row;
   border-bottom-right-radius: 15%;
   border-bottom-left-radius: 15%;
   padding-bottom: 12px;
+ 
 }
 
 .operators {
@@ -75,10 +92,12 @@ border: none !important;
   transition: .5s;
 }
 
+/*
 .gridBox p {
   color: white;
   font-weight: 800;
 }
+*/
 
 .double {
   display: flex;

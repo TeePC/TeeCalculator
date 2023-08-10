@@ -38,3 +38,23 @@ function operate(num1, num2, operator) {
     }
 
 }
+
+ const display = document.getElementById("userInput");
+ const numberButtons = document.querySelectorAll('.numbers');
+
+
+numberButtons.forEach( btn => {
+    btn.onclick = function(btn) {
+
+        display.placeholder += btn.target.value;
+        console.log(btn.target.value);
+        
+    }
+})
+
+
+ function update() {
+    const p = document.createElement("h1");
+    
+
+ }
